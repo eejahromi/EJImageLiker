@@ -9,6 +9,8 @@ Project allows for different animations after double tapping on an image.
 
 Usage
 ==================
+-Add the like icons to your project's Assets catalog
+
 Create an instance of EJImageLiker
 ```objective-c
     ImgLiker *liker = [[ImgLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
