@@ -20,25 +20,17 @@ Create an instance of EJImageLiker
 Set the AnimationStyle
 ```objective-c
     [liker setAnimationStyle:AnimationStyleFade]; // default
-    
     /* OR */
-
     [liker setAnimationStyle:AnimationStyleBlink];
-    
     /* OR */
-    
     [liker setAnimationStyle:AnimationStyleMoveToCorner];
-    
     /* OR */
-    
     [liker setAnimationStyle:AnimationStyleStayOnBottom];
 ```
 
 Choose the color of favorite icon
 ```objective-c
     [liker setLikerImageColor:LikerColorWhite]; // default
-    
     /* OR */
-    
     [liker setLikerImageColor:LikerColorBlack];
 ```
