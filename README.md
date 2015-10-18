@@ -9,7 +9,8 @@ Project allows for different animations after double tapping on an image.
 
 Usage
 ==================
--Add the like icons to your project's Assets catalog
+-Add the like icons to your project's Assets catalog 
+(Make sure the icon names match what's in the file "Favorite" and "Favorite-black")
 
 Create an instance of EJImageLiker
 ```objective-c
