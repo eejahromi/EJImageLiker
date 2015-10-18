@@ -1,7 +1,7 @@
 # EJImageLiker
 
 
-EJImageLiker is a simple "like animation" for images on iOS. 
+EJImageLiker is a simple "Like Animation" for images on iOS. 
 
 ![](demo.gif)
 
@@ -10,6 +10,7 @@ Project allows for different animations after double tapping on an image.
 Usage
 ==================
 -Add the like icons to your project's Assets catalog 
+
 (Make sure the icon names match what's in the file "Favorite" and "Favorite-black")
 
 Create an instance of EJImageLiker
