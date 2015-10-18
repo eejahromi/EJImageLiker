@@ -15,7 +15,7 @@ Usage
 
 Create an instance of EJImageLiker
 ```objective-c
-    ImgLiker *liker = [[ImgLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
+    EJImageLiker *liker = [[EJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
     [self.view addSubview:liker];
 ```
 
