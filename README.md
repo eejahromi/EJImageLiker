@@ -1,7 +1,7 @@
 # EJImageLiker
 
 
-EJImageLiker is a simple "Like Animation" for images on iOS. 
+EJImageLiker is a simple "Like Animation" Library for images on iOS. 
 
 ![](demo.gif)
 
