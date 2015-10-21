@@ -13,6 +13,11 @@ Usage
 
 (Make sure the icon names match what's in the file. "Favorite" and "Favorite-black")
 
+Add the header file to your source code
+```objective-c
+#import "EJImageLiker.h"
+```
+
 Create an instance of EJImageLiker
 ```objective-c
     EJImageLiker *liker = [[EJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
