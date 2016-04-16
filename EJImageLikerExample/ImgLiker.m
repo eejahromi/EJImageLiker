@@ -68,6 +68,20 @@
             break;
         }
             
+        case AnimationStyleReverseFade: {
+            likePic.center = CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2);
+            likePic.alpha = 0.0;
+            likePic.transform = CGAffineTransformMakeScale(7.0, 7.0);
+            [UIView animateWithDuration:1.0 animations:^{
+                likePic.transform = CGAffineTransformMakeScale(1.0, 1.0);
+                likePic.alpha = 1.0;
+                
+            } completion:^(BOOL finished) {
+                likePic.alpha = 0.0;
+            }];
+            break;
+        }
+            
         case AnimationStyleMoveToCorner:{
             likePic.alpha = 0.0;
             [UIView animateWithDuration:1.0 animations:^{

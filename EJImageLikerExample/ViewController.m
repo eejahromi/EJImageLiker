@@ -20,6 +20,7 @@
     [super viewDidLoad];
     
     ImgLiker *liker = [[ImgLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
+    [liker setAnimationStyle:AnimationStyleReverseFade];
     [self.view addSubview:liker];
     
 }
