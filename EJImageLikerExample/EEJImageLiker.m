@@ -6,15 +6,15 @@
 //  Copyright © 2015 Ehsan Jahromi. All rights reserved.
 //
 
-#import "ImgLiker.h"
+#import "EEJImageLiker.h"
 
-@interface ImgLiker ()
+@interface EEJImageLiker ()
 
 @property (strong,nonatomic) UITapGestureRecognizer *tapGestureRecognizer;
 
 @end
 
-@implementation ImgLiker
+@implementation EEJImageLiker
 
 -(instancetype)initWithFrame:(CGRect)frame{
     

@@ -13,7 +13,7 @@
 		7C4DDB051BD3AE7400149965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DDB031BD3AE7400149965 /* Main.storyboard */; };
 		7C4DDB071BD3AE7400149965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DDB061BD3AE7400149965 /* Assets.xcassets */; };
 		7C4DDB0A1BD3AE7400149965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DDB081BD3AE7400149965 /* LaunchScreen.storyboard */; };
-		7C4DDB131BD3AE8900149965 /* ImgLiker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DDB121BD3AE8900149965 /* ImgLiker.m */; settings = {ASSET_TAGS = (); }; };
+		7C4DDB131BD3AE8900149965 /* EEJImageLiker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DDB121BD3AE8900149965 /* EEJImageLiker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		7C4DDB061BD3AE7400149965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4DDB091BD3AE7400149965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C4DDB0B1BD3AE7400149965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C4DDB111BD3AE8900149965 /* ImgLiker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgLiker.h; sourceTree = "<group>"; };
-		7C4DDB121BD3AE8900149965 /* ImgLiker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgLiker.m; sourceTree = "<group>"; };
+		7C4DDB111BD3AE8900149965 /* EEJImageLiker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEJImageLiker.h; sourceTree = "<group>"; };
+		7C4DDB121BD3AE8900149965 /* EEJImageLiker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEJImageLiker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 				7C4DDB001BD3AE7400149965 /* ViewController.h */,
 				7C4DDB011BD3AE7400149965 /* ViewController.m */,
 				7C4DDB031BD3AE7400149965 /* Main.storyboard */,
-				7C4DDB111BD3AE8900149965 /* ImgLiker.h */,
-				7C4DDB121BD3AE8900149965 /* ImgLiker.m */,
+				7C4DDB111BD3AE8900149965 /* EEJImageLiker.h */,
+				7C4DDB121BD3AE8900149965 /* EEJImageLiker.m */,
 				7C4DDB061BD3AE7400149965 /* Assets.xcassets */,
 				7C4DDB081BD3AE7400149965 /* LaunchScreen.storyboard */,
 				7C4DDB0B1BD3AE7400149965 /* Info.plist */,
@@ -155,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C4DDB021BD3AE7400149965 /* ViewController.m in Sources */,
-				7C4DDB131BD3AE8900149965 /* ImgLiker.m in Sources */,
+				7C4DDB131BD3AE8900149965 /* EEJImageLiker.m in Sources */,
 				7C4DDAFF1BD3AE7400149965 /* AppDelegate.m in Sources */,
 				7C4DDAFC1BD3AE7400149965 /* main.m in Sources */,
 			);
@@ -304,6 +304,7 @@
 				7C4DDB101BD3AE7400149965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

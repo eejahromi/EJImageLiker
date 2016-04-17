@@ -21,7 +21,7 @@ typedef NS_ENUM(NSUInteger, LikerColor) {
     LikerColorBlack
 };
 
-@interface ImgLiker : UIImageView
+@interface EEJImageLiker : UIImageView
 
 @property (nonatomic) enum AnimationStyle animationStyle;
 @property (nonatomic) enum LikerColor likerImageColor;

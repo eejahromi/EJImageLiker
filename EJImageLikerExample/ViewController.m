@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ImgLiker.h"
+#import "EEJImageLiker.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ImgLiker *liker = [[ImgLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
+    EEJImageLiker *liker = [[EEJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
     [liker setAnimationStyle:AnimationStyleReverseFade];
     [self.view addSubview:liker];
     
