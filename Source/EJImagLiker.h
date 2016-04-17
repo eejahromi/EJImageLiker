@@ -10,6 +10,7 @@
 
 typedef NS_ENUM(NSUInteger, AnimationStyle) {
     AnimationStyleFade = 0,
+    AnimationStyleReverseFade,
     AnimationStyleMoveToCorner,
     AnimationStyleStayOnBottom,
     AnimationStyleBlink
