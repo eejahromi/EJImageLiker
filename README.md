@@ -20,26 +20,24 @@ Add the header file to your source code
 
 Create an instance of EJImageLiker
 ```objective-c
-    EJImageLiker *liker = [[EJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) andImage:[UIImage imageNamed:@"fall"]];
+    EJImageLiker *liker = [[EJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) 
+    andImage:[UIImage imageNamed:@"fall"]];
     [self.view addSubview:liker];
 ```
 
 Set the AnimationStyle
 ```objective-c
     [liker setAnimationStyle:AnimationStyleFade]; // default
-    /* OR */
-    [liker setAnimationStyle:AnimationStyleReverseFade]; 
-    /* OR */
-    [liker setAnimationStyle:AnimationStyleBlink];
-    /* OR */
-    [liker setAnimationStyle:AnimationStyleMoveToCorner];
-    /* OR */
-    [liker setAnimationStyle:AnimationStyleStayOnBottom];
 ```
 
+* `Other AnimationStyles Available:`
+  - `AnimationStyleFade`
+  - `AnimationStyleReverseFade`
+  - `AnimationStyleBlink`
+  - `AnimationStyleMoveToCorner`
+  - `AnimationStyleStayOnBottom`
+
 Choose the color of favorite icon
-```objective-c
-    [liker setLikerImageColor:LikerColorWhite]; // default
-    /* OR */
-    [liker setLikerImageColor:LikerColorBlack];
-```
+  - `AnimationStyleFade // default`
+  - `AnimationStyleReverseFade`
+  
