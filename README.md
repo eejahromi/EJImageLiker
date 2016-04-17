@@ -28,6 +28,8 @@ Set the AnimationStyle
 ```objective-c
     [liker setAnimationStyle:AnimationStyleFade]; // default
     /* OR */
+    [liker setAnimationStyle:AnimationStyleReverseFade]; 
+    /* OR */
     [liker setAnimationStyle:AnimationStyleBlink];
     /* OR */
     [liker setAnimationStyle:AnimationStyleMoveToCorner];
