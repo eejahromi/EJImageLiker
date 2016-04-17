@@ -21,7 +21,7 @@ Add the header file to your source code
 Create an instance of EJImageLiker
 ```objective-c
     EJImageLiker *liker = [[EJImageLiker alloc]initWithFrame:CGRectMake(100,200, 200, 200) 
-    andImage:[UIImage imageNamed:@"fall"]];
+                            andImage:[UIImage imageNamed:@"fall"]];
     [self.view addSubview:liker];
 ```
 
