@@ -37,7 +37,11 @@ Set the AnimationStyle
   - `AnimationStyleMoveToCorner`
   - `AnimationStyleStayOnBottom`
 
-Choose the color of favorite icon
-  - `AnimationStyleFade // default`
-  - `AnimationStyleReverseFade`
+Set the color of favorite icon
+```objective-c
+    [liker setLikerImageColor:LikerColorWhite]; // default
+```
+
+* `Other color of favorite icon`
+  - `LikerColorBlack`
   
