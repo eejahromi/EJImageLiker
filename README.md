@@ -13,6 +13,9 @@ Usage
 
 (Make sure the icon names match what's in the file. "Favorite" and "Favorite-black")
 
+-Add the `EJImageLiker`source files from Sources/ to your project 
+
+
 Add the header file to your source code
 ```objective-c
 #import "EJImageLiker.h"
